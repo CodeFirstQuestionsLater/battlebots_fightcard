@@ -1,0 +1,19 @@
+{
+  "name": "battlebots_fightcard",
+  "version": "1.0.0",
+  "description": "Ideally this tool will be used to take the newest fight card and add the people who voted on each bot into the image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Masternova/battlebots_fightcard.git"
+  },
+  "author": "Cody",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Masternova/battlebots_fightcard/issues"
+  },
+  "homepage": "https://github.com/Masternova/battlebots_fightcard#readme"
+}
