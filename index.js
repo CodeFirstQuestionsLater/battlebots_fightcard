@@ -5,7 +5,6 @@ request('https://battlebots.fandom.com/wiki/Discovery_Season_6',
         (error, response, html) => {
             if(!error && response.statusCode == 200) {
                 const $ = cheerio.load(html);
-                //console.log(html)
                 const botTable = $('table.article-table.fandom-table > tbody > tr > td').each((i, el) => {
                     const competitor = $(el)
                     .text()
@@ -18,6 +17,12 @@ request('https://battlebots.fandom.com/wiki/Discovery_Season_6',
                     .text()
                     console.log(episode)
                 })
+                //const episode2 = $('.mw-parser-output').each((i,el)=> {
+                //    const otherepisode = $(el)
+                //    .find('h3')
+                //    .text()
+                //    console.log(otherepisode)
+                //})
 
             }
         })
