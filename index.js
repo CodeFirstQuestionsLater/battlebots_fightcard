@@ -8,6 +8,7 @@ request('https://battlebots.fandom.com/wiki/Discovery_Season_6',
                 const botTable = $('table.article-table.fandom-table > tbody > tr > td').each((i, el) => {
                     const competitor = $(el)
                     .text()
+                    .replace(/\s\s+/g, '') //Attmpting to remove the lines between the entries. No luck yet.
                     //.replace(/\s/s+/g)
                     console.log(competitor)
                     //const competitorUrl = $(el).find('')
