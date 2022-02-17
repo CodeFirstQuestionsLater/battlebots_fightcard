@@ -17,9 +17,10 @@
   },
   "homepage": "https://github.com/Masternova/battlebots_fightcard#readme",
   "dependencies": {
-    "axios": "^0.25.0",
     "cheerio": "^1.0.0-rc.10",
-    "cheerio-tableparser": "^1.0.1",
-    "express": "^4.17.2"
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
