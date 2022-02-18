@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/Masternova/battlebots_fightcard#readme",
   "dependencies": {
+    "axios": "^0.26.0",
     "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
     "request": "^2.88.2"
   },
   "devDependencies": {
